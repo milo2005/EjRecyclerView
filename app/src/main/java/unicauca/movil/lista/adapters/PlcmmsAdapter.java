@@ -31,7 +31,7 @@ public class PlcmmsAdapter extends RecyclerView.Adapter<PlcmmsAdapter.PlcmmsView
 
     @Override
     public PlcmmsViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = inflater.inflate(R.layout.activity_main, parent, false);
+        View v = inflater.inflate(R.layout.template_item, parent, false);
         PlcmmsViewHolder viewHolder = new PlcmmsViewHolder(v);
         return viewHolder;
     }
